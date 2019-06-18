@@ -21,8 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{AA085F74-158F-4C14-81AD-A080EA2A92B4}</ProjectGuid>
-    <RootNamespace>ContaminationEngine</RootNamespace>
+    <RootNamespace>CNE</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Contamination-Engine</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,10 +129,15 @@
   <ItemGroup>
     <ClCompile Include="Shaders\shader.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="Utilities\fileUtilities.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shaders\shader.h" />
     <ClInclude Include="Utilities\fileUtilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\test.fgs" />
+    <None Include="Shaders\test.vxs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -21,6 +21,9 @@
     <ClCompile Include="Shaders\shader.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Utilities\fileUtilities.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shaders\shader.h">
@@ -29,5 +32,9 @@
     <ClInclude Include="Utilities\fileUtilities.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\test.fgs" />
+    <None Include="Shaders\test.vxs" />
   </ItemGroup>
 </Project>
